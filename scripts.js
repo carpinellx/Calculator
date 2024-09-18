@@ -15,13 +15,13 @@ function insert(num) {
     }
 }
 
-function clean(){ //C da calculadora
-    document.getElementById('conta').innerHTML = ""; 
+function clean() { //C da calculadora
+    document.getElementById('conta').innerHTML = "";
 }
 
-function back(){ //Backspace da calculadora
+function back() { //Backspace da calculadora
     var conta = document.getElementById('conta').innerHTML;
-    document.getElementById('conta').innerHTML = conta.substring(0, conta.length -1)
+    document.getElementById('conta').innerHTML = conta.substring(0, conta.length - 1)
 }
 
 function calcular() {
@@ -48,6 +48,6 @@ function calcular() {
             // Exibe uma mensagem de erro caso ocorra algum problema
             contaElement.textContent = "Erro";
         }
-        
+
     }
 }
